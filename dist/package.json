@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Pratyush Kiran","email":"pratyush03102001@gmail.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/commentViewer.pbiviz.json"
+			}
+		],
+		"visual": {"name":"commentViewer","displayName":"Comment Viewer","guid":"commentViewer","visualClassName":"Visual","version":"1.0.0.0","description":"A visual that displays the comments from a dataset for 3 seconds.","supportUrl":"https://support.com","gitHubUrl":"https://github.com/pratyushkiran/comment_viewer_custom_visual_powerbi"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

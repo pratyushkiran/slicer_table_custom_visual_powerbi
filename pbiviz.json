@@ -1,0 +1,28 @@
+{
+  "visual": {
+    "name": "commentViewer",
+    "displayName": "Comment Viewer",
+    "guid": "commentViewer",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "A visual that displays the comments from a dataset for 3 seconds.",
+    "supportUrl": "https://support.com",
+    "gitHubUrl": "https://github.com/pratyushkiran/comment_viewer_custom_visual_powerbi"
+  },
+  "apiVersion": "4.7.0",
+  "author": {
+    "name": "Pratyush Kiran",
+    "email": "pratyush03102001@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/Comment Viewer Icon 20px.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "visualConfig": {
+    "port": 8082
+  }
+}

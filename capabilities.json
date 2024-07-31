@@ -1,0 +1,63 @@
+{
+  "dataRoles": [
+    {
+      "name": "imageUrl",
+      "kind": "Grouping",
+      "displayName": "Image URL"
+    },
+    {
+      "name": "name",
+      "kind": "Grouping",
+      "displayName": "Name"
+    },
+    {
+      "name": "review",
+      "kind": "Grouping",
+      "displayName": "Review"
+    },
+    {
+      "name": "rating",
+      "kind": "Measure",
+      "displayName": "Rating"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "select": [
+            { "for": { "in": "imageUrl" } },
+            { "for": { "in": "name" } },
+            { "for": { "in": "review" } },
+            { "for": { "in": "rating" } }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "MyCustomObjects": {
+      "properties": {
+        "imageHeight": {
+          "displayName": "Image Height",
+          "type": { "numeric": true }
+        }
+      }
+    }
+  },
+  "sorting": {
+    "default": {}
+  },
+  "supportsHighlight": true,
+  "privileges": [
+    {
+      "name": "WebAccess",
+      "essential": true,
+      "parameters": ["https://*"]
+    },
+    {
+      "name": "ExportContent",
+      "essential": true
+    }
+  ]
+}

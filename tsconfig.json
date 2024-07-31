@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noLib": false,
+    "outDir": "./.tmp/build/",
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["dom", "es2015", "es2015.promise"]
+  },
+  "files": ["src/visual.ts", "node_modules/powerbi-visuals-api/index.d.ts"]
+}

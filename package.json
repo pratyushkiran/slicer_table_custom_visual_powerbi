@@ -1,0 +1,19 @@
+{
+  "name": "review-viewer",
+  "version": "1.0.0",
+  "description": "A custom Power BI visual to display reviews.",
+  "main": "dist/visual.js",
+  "scripts": {
+    "build": "pbiviz package",
+    "start": "pbiviz start"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "powerbi-visuals-api": "^4.7.0",
+    "d3": "^5.16.0"
+  },
+  "devDependencies": {
+    "powerbi-visuals-tools": "^5.5.1"
+  }
+}
